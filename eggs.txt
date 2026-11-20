@@ -1,0 +1,18 @@
+# 卵の一覧（REC-G｜集卵処）
+# ふだん見ているページの URL を、一行に一つ書く。RSS の URL を知らなくてもよい
+#   note・Substack・Bluesky・Medium・はてなブログ・YouTube などは、ページの URL から RSS を探す
+#   X と Instagram は RSS を出していないので、集められない
+# 「URL ｜ 表示名」と書くと、その名前で並ぶ（書かなければ、もとの名前のまま）
+# 「｜」のない行の URL のあとの文字は覚え書き（読まない）
+# 「#」で始まる行は読まない
+
+title: わたしの集卵処
+# url: https://あなたの名前.github.io/REC-G/        ← 公開されるページの住所（先頭の # を外して使う。なくてもよい）
+
+# ── ここから下に、あなたの卵を書く
+# https://note.com/あなたのID
+# https://bsky.app/profile/あなたのハンドル ｜ Bluesky
+
+
+# ── 便り（見本。いらなければ消してよい）
+https://bsky.app/profile/dyxis.substack.com ｜ 🪺 DyXis の便り
