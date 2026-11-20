@@ -1,0 +1,41 @@
+# REC-G の仕入れ係：一日二回、卵を集めて garden.json と feed.xml を作り直す
+name: Collect eggs
+
+on:
+  schedule:
+    - cron: "17 21,9 * * *"     # 日本時間の 6:17 と 18:17
+  push:
+    paths:
+      - "**/eggs.txt"
+      - "**/shelves.txt"
+  workflow_dispatch:            # Actions の「Run workflow」でいつでも動かせる
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rec-g
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect
+        run: python3 rec_g.py
+      - name: Save
+        run: |
+          git config user.name "rec-g"
+          git config user.email "rec-g@users.noreply.github.com"
+          git add -A -- '*garden.json' '*feed.xml'
+          if git diff --cached --quiet; then
+            echo "変わりなし"
+          else
+            git commit -m "Collect eggs"
+            git pull --rebase
+            git push
+          fi
