@@ -1,7 +1,7 @@
 {
   "title": "わたしの集卵処",
   "url": "",
-  "updated": "2026-11-23T10:42:36+09:00",
+  "updated": "2026-11-24T06:23:53+09:00",
   "shelves": [
     {
       "id": "*",
@@ -24,6 +24,12 @@
       "link": "https://bsky.app/profile/dyxis.substack.com",
       "latest": [
         {
+          "title": "はじめての方への道案内を置きました。 note・GitHub・ブログ・ポッドキ…",
+          "url": "https://bsky.app/profile/dyxis.substack.com/post/3n2xcp3cj6s2d",
+          "image": "",
+          "date": "2026-11-23T13:38:00+09:00"
+        },
+        {
           "title": "自分だけの庭づくり、此処からはじめてみませんか？🥚 あちこちで書いた記事の表紙…",
           "url": "https://bsky.app/profile/dyxis.substack.com/post/3n2saex3wec2k",
           "image": "",
@@ -34,15 +40,9 @@
           "url": "https://bsky.app/profile/dyxis.substack.com/post/3n2sacucpqc2k",
           "image": "",
           "date": "2026-11-21T13:12:00+09:00"
-        },
-        {
-          "title": "Solo Play to Rhizomatic Connections I d…",
-          "url": "https://bsky.app/profile/dyxis.substack.com/post/3n2hyxrp54s2b",
-          "image": "",
-          "date": "2026-11-17T11:34:00+09:00"
         }
       ],
-      "latest_at": "2026-11-21T13:13:00+09:00",
+      "latest_at": "2026-11-23T13:38:00+09:00",
       "ok": true
     }
   ]
