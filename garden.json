@@ -1,7 +1,7 @@
 {
   "title": "わたしの集卵処",
   "url": "",
-  "updated": "2026-11-24T06:23:53+09:00",
+  "updated": "2026-11-25T05:09:45+09:00",
   "shelves": [
     {
       "id": "*",
@@ -24,6 +24,12 @@
       "link": "https://bsky.app/profile/dyxis.substack.com",
       "latest": [
         {
+          "title": "赤鬼・小赤鬼・小青鬼・青鬼の巣。 札には名前・/rss・/link の三行。 …",
+          "url": "https://bsky.app/profile/dyxis.substack.com/post/3n2zauohebk2r",
+          "image": "",
+          "date": "2026-11-24T08:11:00+09:00"
+        },
+        {
           "title": "はじめての方への道案内を置きました。 note・GitHub・ブログ・ポッドキ…",
           "url": "https://bsky.app/profile/dyxis.substack.com/post/3n2xcp3cj6s2d",
           "image": "",
@@ -34,15 +40,9 @@
           "url": "https://bsky.app/profile/dyxis.substack.com/post/3n2saex3wec2k",
           "image": "",
           "date": "2026-11-21T13:13:00+09:00"
-        },
-        {
-          "title": "🥚🐣 CHIC TEC｜繭topia 本拠地はそのまま。 仮の住所と、卵を集め…",
-          "url": "https://bsky.app/profile/dyxis.substack.com/post/3n2sacucpqc2k",
-          "image": "",
-          "date": "2026-11-21T13:12:00+09:00"
         }
       ],
-      "latest_at": "2026-11-23T13:38:00+09:00",
+      "latest_at": "2026-11-24T08:11:00+09:00",
       "ok": true
     }
   ]
